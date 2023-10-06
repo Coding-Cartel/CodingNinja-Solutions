@@ -1,5 +1,5 @@
 #include <bits/stdc++.h> 
-
+using namespace std;
 /*********************************************************
 
     Following is the class structure of the Node class:
@@ -49,4 +49,4 @@ Node* reverseDLLInGroups(Node* head, int k)
 		ptr = ptr->next;
 	}
 	return head;
-}
+} 
